@@ -27,7 +27,7 @@ Toda descrição deve iniciar com um verbo no **imperativo** (ex.: "adiciona"), 
 
 Em casos que uma alteração quebra a compatibilidade com consumidores existentes (ou seja, em caso de remoção/alteração de um endpoint, mudança em uma resposta, remoção de parâmetros e qualquer outro tipo de mudança onde seja necessário uma mudança no consumidor também), deve-se utilizar o sinal de exclamação (!) após o o sufixo de tipo do commit.
 
-**Exemplo:** `feat!(pr-20): Adiciona novo conteúdo`
+**Exemplo:** `feat!(pr-20): Adiciona novo conteúdo` - *obs.: pode ser necessário escapar a exclamação, para isso utilize uma barra invertida antes do sinal*
 
 ## Atomic commits
 

@@ -2,9 +2,9 @@
 
 ## Título
 
-O título da *PR* deve ser curto e breve. Ele deve ser prefixado com o ID da task e do tipo do PR - ![./padrao-commits.md](Vide a seção tipos) - e deve iniciar com um verbo no **imperativo** (Exemplo: *adiciona* e não *adicionado*/*adicionei*).
+O título da *PR* deve ser curto e breve. Ele deve ser prefixado com o ID da task e do tipo do PR - [Vide a seção tipos](./padrao-commits.md) - e deve iniciar com um verbo no **imperativo** (Exemplo: *adiciona* e não *adicionado*/*adicionei*).
 
-**Exemplo:** `feat(pr-20): Adiciona nova funcionalidade` - sempre simples e direto ao ponto
+**Exemplo:** `(pr-20): Adiciona nova funcionalidade` - sempre simples e direto ao ponto
 
 ## Formato
 
@@ -51,3 +51,38 @@ Serve como lembrete para o dev
 Por fim, será necessário colocar o link da task ao qual o *PR* faz referência
 
 **Exemplo:** https://tasks.com/pr-20
+
+
+## PR de release
+
+Nos casos de PR da branch dev para hml ou hml para main, o PR seguirá esse formato:
+
+### Descrição
+
+Descreve o escopo geral da release.
+
+**Exemplo:** Este PR promove as alterações planejadas para sprint 1, incluindo funcionalidades de autenticação, correções de bugs etc
+
+### Mudanças
+
+Lista os PRs/tasks qeu compõem esse release.
+
+**Exemplo:**
+- Autenticação dos usuários (pr-20)
+- Correção de bugs (pr-21)
+- Atualização dos pacotes (pr-14)
+
+### Checklist
+
+Para validação antes do merge.
+
+- [ ] Todos os PRs das individuais já foram aprovados e mergeados na `dev`
+- [ ] Código revisado
+- [ ] Migrações atualizadas
+- [ ] Variáveis de ambiente e configs atualizadas
+
+### Sprint
+
+Número da sprint.
+
+**Exemplo:** 1ª sprint
