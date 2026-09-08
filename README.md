@@ -77,6 +77,7 @@ O repositório utiliza **Submódulos Git** para gerenciar os componentes de form
 - [Padronização de Commits](./docs/padrao-commits.md)
 - [Padronização de Branches](./docs/padrao-branches.md)
 - [Padronização de Pull Requests](./docs/padrao-pr.md)
+- [Padronização dos releases](./docs/padrao-releases.md)
 
 ---
 
