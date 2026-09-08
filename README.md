@@ -1,8 +1,8 @@
-<!-- <p align="center">
-  <img src="./docs/banner.png" alt="Sidebrain Banner" width="100%">
-</p> -->
-
 # 🤖 Sidebrain - Seu mentor para aprendizado de habilidades com IA
+
+<p align="center">
+  <img src="./images/banner.png" alt="Sidebrain Banner" width="100%">
+</p>
 
 ## Índice
 
