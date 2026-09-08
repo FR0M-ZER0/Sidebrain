@@ -14,7 +14,6 @@
 | RF04 | O sistema deve registrar e acompanhar o progresso do usuário ao longo da jornada. |
 | RF05 | O sistema deve fornecer feedback personalizado sobre o desempenho e a evolução do usuário. |
 | RF06 | O sistema deve implementar mecânica de gamificação com XP/pontos e níveis de progresso e outros. |
-| RF10 | O sistema deve utilizar estratégias de processamento de linguagem natural (PLN) na interação com o usuário. |
 
 ---
 
