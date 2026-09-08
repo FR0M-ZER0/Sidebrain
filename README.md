@@ -23,23 +23,18 @@ O **Sidebrain** surge dessa necessidade. Utilizando processamento de linguagem n
 
 ---
 
-<!-- ## 📋 Product Backlog
+## 📋 Product Backlog
 
-| Rank | Prioridade | User Story | Estimativa | Sprint |
-| :--- | :--- | :--- | :---: | :---: |
-| 1 | Alta | Como Juiz, desejo submeter o arquivo de uma petição inicial para extrair os pontos principais do processo de forma automatizada. | 13 | 1 |
-| 2 | Alta | Como Juiz, desejo visualizar precedentes jurídicos categorizados pelo seu nível de aplicabilidade ao caso, para agilizar a fundamentação da minha decisão. | 13 | 1 |
-| 3 | Alta | Como Juiz, desejo ler uma síntese explicativa que compare a petição aos precedentes listados, para compreender a justificativa da recomendação da ferramenta antes de tomar minha decisão. | 8 | 1 |
-| 4 | Alta | Como Juiz, desejo acessar uma área de trabalho confidencial e individualizada, para garantir o sigilo absoluto das informações processuais que estou analisando. | 5 | 2 |
-| 5 | Alta | Como Juiz, desejo visualizar minhas análises mais recentes logo na tela de boas-vindas, para retomar meu trabalho rapidamente de onde parei. | 5 | 2 |
-| 6 | Alta | Como Juiz, desejo emitir um documento formal com o resultado da análise e os precedentes selecionados, para anexá-lo como material de apoio aos autos do processo judicial. | 5 | 3 |
-| 7 | Alta | Como Advogado, desejo inserir a descrição e os documentos de um caso para que o sistema identifique a matéria e busque precedentes aplicáveis ranqueados por relevância e hierarquia. | 13 | 3 |
-| 8 | Alta | Como Advogado, desejo que o sistema gere uma sugestão de petição inicial estruturada (fatos, fundamentos, pedidos e citações), para reduzir meu tempo de elaboração. | 13 | 3 |
-| 9 | Alta | Como Julgador (2ª Instância), desejo que o sistema gere uma minuta de decisão (com relatório, fundamentação e dispositivo) baseada nos precedentes do tribunal, sinalizando eventuais ausências de teses fortes. | 13 | 3 |
-| 10 | Alta | Como Julgador (2ª Instância), desejo submeter os autos completos (PDF) para que o sistema classifique as peças processuais e extraia o contexto da inicial. | 13 | 3 |
-| 11 | Média | Como Advogado, desejo um ambiente de edição assistida para a minuta gerada, permitindo refinar a tese central e trocar os precedentes sugeridos. | 8 | 3 |
+| ID | User Story | Prioridade | Sprint | Requisito |
+|----|-------------|:----------:|:------:|:---------:|
+| US01 | Como estudante, quero poder definir meu objetivo de aprendizado para que o assistente me ensinar de forma dinâmica. | Alta | 1 | RF01 |
+| US02 | Como estudante, quero visualizar uma jornada/trilha guiada por um mentor virtual para saber quais passos seguir. | Alta | 1 | RF02 |
+| US03 | Como estudante, quero receber atividades ou missões sugeridas, alinhadas ao meu nível e objetivo, para praticar e evoluir na habilidade escolhida. | Alta | 1 | RF03 |
+| US04 | Como usuário, quero receber feedback personalizado sobre meu desempenho para entender meus pontos fortes e fracos. | Alta | 2 | RF05 |
+| US05 | Como usuário, quero que meu progresso seja registrado e acompanhado para visualizar minha evolução ao longo da jornada. | Alta | 2 | RF04 |
+| US06 | Como usuário, quero acumular XP/pontos e subir de nível para me sentir motivado a continuar minha jornada. | Média | 3 | RF06 |
 
---- -->
+---
 
 ## 📅 Cronograma
 
