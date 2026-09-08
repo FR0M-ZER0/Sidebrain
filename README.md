@@ -27,7 +27,7 @@ O **Sidebrain** surge dessa necessidade. Utilizando processamento de linguagem n
 
 | ID | User Story | Prioridade | Sprint | Requisito |
 |----|-------------|:----------:|:------:|:---------:|
-| US01 | Como estudante, quero poder definir meu objetivo de aprendizado para que o assistente me ensinar de forma dinâmica. | Alta | 1 | RF01 |
+| US01 | Como estudante, quero poder definir meu objetivo de aprendizado para que o assistente me ensine de forma dinâmica. | Alta | 1 | RF01 |
 | US02 | Como estudante, quero visualizar uma jornada/trilha guiada por um mentor virtual para saber quais passos seguir. | Alta | 1 | RF02 |
 | US03 | Como estudante, quero receber atividades ou missões sugeridas, alinhadas ao meu nível e objetivo, para praticar e evoluir na habilidade escolhida. | Alta | 1 | RF03 |
 | US04 | Como usuário, quero receber feedback personalizado sobre meu desempenho para entender meus pontos fortes e fracos. | Alta | 2 | RF05 |
