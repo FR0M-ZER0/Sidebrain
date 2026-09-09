@@ -13,7 +13,7 @@
 | RF03 | O sistema deve propor atividades ou missões ao usuário, alinhadas ao seu nível e objetivo. |
 | RF04 | O sistema deve registrar e acompanhar o progresso do usuário ao longo da jornada. |
 | RF05 | O sistema deve fornecer feedback personalizado sobre o desempenho e a evolução do usuário. |
-| RF06 | O sistema deve implementar mecânica de gamificação com XP/pontos e níveis de progresso e outros. |
+| RF06 | O sistema deve implementar mecânicas de gamificação, incluindo XP/pontos, níveis de progressão, conquistas e sequência de estudos. |
 
 ---
 
