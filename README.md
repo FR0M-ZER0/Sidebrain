@@ -77,18 +77,11 @@ O **Sidebrain** surge dessa necessidade. Utilizando processamento de linguagem n
 
 ---
 
-<!-- ## 🏗️ Estrutura do Projeto e Arquitetura
-O repositório utiliza **Submódulos Git** para gerenciar os componentes de forma independente:
+## 🏗️ Arquitetura do sistema
 
-* **[Api](https://github.com/FR0M-ZER0/PrecedentIA-Api):** Core do servidor e orquestração de IA.
-* **[DataGetter](https://github.com/FR0M-ZER0/PrecedentIA-DataGetter):** Módulo de coleta e ingestão de dados jurídicos.
-* **[DataProcessing](https://github.com/FR0M-ZER0/PrecedentIA-DataProcessing):** Processamento de Linguagem Natural (NLP) e modelos de IA.
-* **[Precedentia-Mobile](https://github.com/FR0M-ZER0/PrecedentIA-Mobile):** Aplicativo mobile desenvolvido em Flutter.
+![arquitetura](./images/architecture.png)
 
-### Arquitetura do Sistema
-![arquitetura](./docs/precedentia-arquitetura.png)
-
---- -->
+---
 
 <!-- ## ⚙️ Tecnologias Utilizadas
 
