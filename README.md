@@ -27,40 +27,21 @@ O **Sidebrain** surge dessa necessidade. Utilizando processamento de linguagem n
 
 | ID | User Story | Prioridade | Sprint | Requisito |
 |----|-------------|:----------:|:------:|:---------:|
-| US01 | Como usuário, desejo informar meu objetivo de aprendizagem, para que o SideBrain compreenda o que desejo desenvolver. | Alta | 1 | RF01 |
-| US02 | Como usuário, desejo selecionar uma área e um tema de aprendizagem, para direcionar minha jornada. | Alta | 1 | RF01, RF02 |
-| US03 | Como usuário, desejo informar meu nível de conhecimento, para que as atividades sejam adequadas ao meu conhecimento. | Alta | 1 | RF03 |
-| US04 | Como usuário, desejo realizar um diagnóstico inicial, para que o SideBrain identifique meu nível e minhas dificuldades. | Alta | 1 | RF02, RF03 |
-| US05 | Como sistema, desejo interpretar o resultado do diagnóstico utilizando IA, para identificar conhecimentos prévios e dificuldades do usuário. | Alta | 1 | RF02, RF03, RF05 |
-| US06 | Como usuário, desejo visualizar o resultado do meu diagnóstico, para compreender meu nível e minhas principais dificuldades. | Alta | 1 | RF02, RF03 |
-| US07 | Como usuário, desejo receber uma jornada de aprendizagem personalizada, para estudar de acordo com meu objetivo e nível. | Alta | 1 | RF02, RF03 |
-| US08 | Como usuário, desejo receber atividades e quizzes adequados ao meu nível, para desenvolver minhas habilidades. | Alta | 1 | RF03 |
-| US09 | Como usuário, desejo responder às atividades e quizzes, para verificar meu conhecimento. | Alta | 1 | RF03 |
-| US10 | Como usuário, desejo receber o resultado das minhas atividades, para acompanhar meu desempenho. | Alta | 1 | RF04 |
-| US11 | Como usuário, desejo receber feedback personalizado sobre minhas respostas, para compreender meus erros e melhorar meu aprendizado. | Alta | 1 | RF05 |
-| US12 | Como usuário, desejo informar meu objetivo de aprendizagem, para que o SideBrain compreenda o que desejo desenvolver. | Alta | 2 | RF03 |
-| US13 | Como sistema, desejo identificar conteúdos ou habilidades nos quais o usuário apresenta dificuldades recorrentes, para recomendar atividades de reforço. | Alta | 2 | RF03, RF05 |
-| US14 | Como sistema, desejo aumentar gradualmente o nível de desafio quando o usuário apresentar desempenho consistente, para acompanhar sua evolução. | Alta | 2 | RF03, RF04 |
-| US15 | Como usuário, desejo informar que estou tendo dificuldade em determinado conteúdo, para receber uma recomendação de revisão ou reforço. | Média | 2 | RF05 |
-| US16 | Como usuário, desejo visualizar meu progresso de aprendizagem, para acompanhar minha evolução ao longo da jornada. | Alta | 2 | RF04 |
-| US17 | Como usuário, desejo receber XP ao concluir atividades, para tornar minha jornada mais motivadora. | Alta | 2 | RF06 |
-| US18 | Como usuário, desejo evoluir meu nível de progressão conforme acumulo XP, para perceber minha evolução dentro do SideBrain. | Alta | 2 | RF06 |
-| US19 | Como usuário, desejo desbloquear conquistas ao atingir determinados objetivos, para aumentar meu engajamento. | Média | 2 | RF06 |
-| US20 | Como sistema, desejo manter uma memória resumida da aprendizagem do usuário, contendo objetivo, nível, dificuldades, desempenho e conteúdos estudados, para personalizar as interações sem reenviar todo o histórico à IA. | Alta | 2 | RF02, RF04, RNF07 |
-| US21 | Como sistema, desejo utilizar estratégias de redução de contexto e reaproveitamento de informações, para reduzir o consumo de recursos de IA. | Alta | 2 | RNF06, RNF07, RNF09 |
-| US22 | Como sistema, desejo registrar as chamadas realizadas à IA e os tokens consumidos quando disponibilizados pelo provedor, para monitorar e controlar o uso do recurso. | Média | 2 | RNF05 |
-| US23 | Como sistema, desejo manter funcionalidades que não dependem de IA disponíveis quando o serviço de IA estiver indisponível ou atingir sua cota, para evitar a interrupção da aprendizagem. | Alta | 2 | RNF04 |
-| US24 | Como usuário, desejo visualizar meu histórico de atividades e resultados, para acompanhar minha evolução ao longo do tempo. | Média | 3 | RF04 |
-| US25 | Como usuário, desejo manter uma sequência de estudos, para incentivar a continuidade da aprendizagem. | Média | 3 | RF04, RF06 |
-| US26 | Como usuário, desejo realizar desafios especiais relacionados ao meu domínio de aprendizagem, para testar minhas habilidades de forma diferenciada. | Média | 3 | RF03, RF06 |
-| US27 | Como administrador, desejo cadastrar e organizar conteúdos por domínio, tema, nível e habilidade, para alimentar as jornadas de aprendizagem. | Média | 3 | RF02, RF03 |
-| US28 | Como usuário, desejo selecionar diferentes áreas de aprendizagem, para estudar Ciências da Natureza, Ciências Exatas, Linguagens, Informática, Música ou Artes. | Alta | 3 | RF01, RF02 |
-| US29 | Como sistema, desejo utilizar a mesma estrutura de aprendizagem independentemente do domínio selecionado, para permitir a expansão do SideBrain para novas áreas. | Alta | 3 | RF02, RF03, RNF13 |
-| US30 | Como usuário, desejo fornecer materiais de estudo, como PDFs ou apostilas, para utilizar meus próprios conteúdos como base para a aprendizagem. | Média | 3 | RF02, RF03 |
-| US31 | Como sistema, desejo processar materiais fornecidos pelo usuário e identificar seus principais conceitos e tópicos, para utilizá-los como contexto da jornada de aprendizagem. | Média | 3 | RF02, RF03, RNF08, RNF09 |
-| US32 | Como sistema, desejo gerar explicações, questões e atividades baseadas nos materiais fornecidos pelo usuário, para personalizar ainda mais sua experiência de aprendizagem. | Média | 3 | RF03, RF05, RNF09 |
-| US33 | Como sistema, desejo gerar feedback explicativo utilizando IA quando necessário, para oferecer orientações contextualizadas sobre os erros do usuário. | Média | 3 | RF05, RNF04, RNF09 |
-| US33 | Como administrador, desejo visualizar métricas de utilização da IA, como quantidade de chamadas, tokens consumidos e falhas, para monitorar o consumo e identificar possíveis limitações do provedor. | Média | 3 | RNF05, RNF06 |
+| US01 | Como sistema, desejo manter uma memória resumida da aprendizagem e utilizar estratégias de redução de contexto, para personalizar as interações e reduzir o consumo de IA. | Alta | 1 | RF01 |
+| US02 | Como usuário, desejo manter uma sequência de estudos e realizar desafios especiais, para incentivar a continuidade e testar minhas habilidades. | Alta | 1 | RF02, RF03 |
+| US03 | Como administrador, desejo cadastrar e organizar conteúdos por domínio, tema, nível e habilidade, permitindo que o SideBrain utilize a mesma estrutura de aprendizagem em diferentes áreas. | Alta | 1 | RF03, RF05, RNF08, RNF09 |
+| US04 | Como usuário, desejo fornecer materiais de estudo, como PDFs ou apostilas, para utilizar meus próprios conteúdos como base para minha aprendizagem. | Alta | 1 | RF02, RF03, RNF13 |
+| US05 | Como sistema, desejo processar os materiais fornecidos pelo usuário e gerar explicações, questões e atividades baseadas neles, para personalizar a experiência de aprendizagem. | Alta | 1 | RF03 |
+| US06 | Como usuário, desejo receber o resultado e feedback das minhas atividades, para compreender meus erros, acompanhar meu desempenho e saber como melhorar. | Alta | 2 | RF04, RF05 |
+| US07 | Como sistema, desejo adaptar a dificuldade das próximas atividades com base no desempenho e nas dificuldades do usuário, para personalizar progressivamente sua aprendizagem. | Alta | 2 | RF03, RF04, RF05 |
+| US08 | Como usuário, desejo visualizar meu progresso e histórico de aprendizagem, para acompanhar minha evolução ao longo da jornada. | Alta | 2 | RF04 |
+| US09 | Como usuário, desejo receber XP, evoluir níveis e desbloquear conquistas conforme realizo atividades e atinjo objetivos, para tornar minha jornada mais motivadora. | Alta | 2 | RF06 |
+| US10 | Como sistema, desejo manter uma memória resumida da aprendizagem e utilizar estratégias de redução de contexto, para personalizar as interações e reduzir o consumo de IA. | Alta | 2 | RF02, RNF06, RNF07 |
+| US11 | Como usuário, desejo manter uma sequência de estudos e realizar desafios especiais, para incentivar a continuidade e testar minhas habilidades. | Média | 3 | RF06 |
+| US12 | Como administrador, desejo cadastrar e organizar conteúdos por domínio, tema, nível e habilidade, permitindo que o SideBrain utilize a mesma estrutura de aprendizagem em diferentes áreas. | Alta | 3 | RF02, RF03, RNF13 |
+| US13 | Como usuário, desejo fornecer materiais de estudo, como PDFs ou apostilas, para utilizar meus próprios conteúdos como base para minha aprendizagem. | Média | 3 | RF02 |
+| US14 | Como sistema, desejo processar os materiais fornecidos pelo usuário e gerar explicações, questões e atividades baseadas neles, para personalizar a experiência de aprendizagem. | Média | 3 | RF03, RF05, RNF08, RNF09 |
+| US15 | Como administrador, desejo monitorar o consumo e a disponibilidade dos recursos de IA, enquanto o sistema mantém funcionalidades independentes da IA disponíveis em situações de indisponibilidade ou limite de cota. | Alta | 3 | RNF04, RNF05 |
 
 
 
